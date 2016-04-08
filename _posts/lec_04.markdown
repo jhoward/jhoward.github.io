@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: post
+title:  "Lecture 4: Loops and Scope"
 mathjax: true
-permalink: /lec04/
 ---
 
 ## Loops and Scope
