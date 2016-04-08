@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Lecture 4: Loops and Scope"
-date:   2016-04-08 12:40:25 -0500
-categories: jekyll update
+date:   2016-04-09
 mathjax: true
 ---
 

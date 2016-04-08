@@ -1,12 +1,11 @@
-## Site settings
-title: Introduction to C Programming
+# Site settings
+title: Intro to C programming
 email: james.w.howard@gmail.com
-description: "Introductory course in c programming.  Split into 10 modules.  Each module takes approximately 4 hours."
-baseurl: ""
-url: "http://jhoward.github.io"
-twitter_username: NONE
+description: Site for intro to c programming class.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "jhoward.github.io" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
 github_username:  jhoward
 
 # Build settings
-markdown: redcarpet
-permalink: pretty
+markdown: kramdown
