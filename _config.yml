@@ -1,0 +1,12 @@
+## Site settings
+title: Introduction to C Programming
+email: james.w.howard@gmail.com
+description: "Introductory course in c programming.  Split into 10 modules.  Each module takes approximately 4 hours."
+baseurl: ""
+url: "http://jhoward.github.io"
+twitter_username: NONE
+github_username:  jhoward
+
+# Build settings
+markdown: redcarpet
+permalink: pretty
