@@ -13,22 +13,24 @@ layout: default
 
   <h1 class="page-heading">Lectures</h1>
     <ul>
-      {% for post in site.posts %}
+      {% for post in site.posts reversed %}
+        {% if post.categories contains 'lecture' %}
           <a href="{{ post.url }}">{{ post.title }}</a>
           {{ post.excerpt }}
           <br>
+        {% endif %}
       {% endfor %}
     </ul>
 
   <br>
 
   <h1 class="page-heading">Assignments</h1>
-    <a href="/assignment1/">Assignment 1</a>
-    <br>
-    <a href="/assignment2/">Assignment 2</a>
-    <br>
-    <a href="/assignment3/">Assignment 3</a>
-    <br>
-    <a href="/assignment4/">Assignment 4</a>
-    <br>
+    <ul>
+      {% for post in site.posts reversed %}
+        {% if post.categories contains 'assignment' %}
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <br>
+        {% endif %}
+      {% endfor %}
+    </ul>
 </div>

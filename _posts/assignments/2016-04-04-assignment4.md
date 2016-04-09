@@ -2,6 +2,7 @@
 layout: page
 mathjax: true
 permalink: /assignment4/
+categories: assignment
 ---
 
 **Problem 1**
