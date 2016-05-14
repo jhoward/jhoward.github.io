@@ -65,7 +65,12 @@ Because `foo - bar` is equal to 10.  The first condition is not true.  Thus we p
 
 
 ### variable types
-TODO
+
+**char**   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Typically a single octet(one byte). This is an integer type. <br>
+**int**    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The most natural size of integer for the machine. <br>
+**float**  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A single-precision floating point value. <br>
+**double** &nbsp;&nbsp;A double-precision floating point value. <br>
+**void**   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Represents the absence of type. <br>
 
 
 
@@ -91,3 +96,5 @@ printf("The address of n is %p", p);
 
 printf("The address of p is %p", &p);
 ```
+
+###Arrays
